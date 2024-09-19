@@ -1,0 +1,55 @@
+/*
+
+ Offer Bar CSS
+
+  */
+.offerbar_wrap {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+.offer_count_wrap {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+/*
+
+ Top Bar CSS
+
+  */
+
+.topbar_wrap {
+    border-width: 0px, 1px, 1px, 1px; 
+border-style: solid; 
+border-color: #99999933;
+display:flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.topbar_left {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+}
+
+.topbar_left a {
+  display: block;
+  border-right: 1px solid #99999933;
+  padding: 10px 20px;
+  color: #362526;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.topbar_left a svg{
+    color:#362526;
+    margin-right:8px;
+}

@@ -1,0 +1,41 @@
+.offer_count { 
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px; 
+  }
+  .offer_count p{
+    margin-bottom:0;
+  }
+  .countdown {
+    display: flex;
+    align-items: center;
+    gap:5px;
+  }
+  
+  .countdown>span {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    opacity: 1;
+    color:#FFFFFF;
+    display:flex;
+    gap:5px;
+    align-items:center;
+  }
+  
+  .countdown> span >span{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.31px;
+    letter-spacing: -0.3199999928474426px;
+    text-align: left;
+    opacity:0.7;
+    color:#fff;  
+    margin-left:3px;
+    }
