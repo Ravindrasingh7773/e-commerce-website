@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import SellIcon from "../../icons/sellIcon";
 import styles from "./style.module.css"
 import Select from "../select";
+import CartIcon from "../../icons/cartIcon";
+import EyeIcon from "../../icons/eyeIcon";
 
  const LanguageOptions = [{
     id: 1,
@@ -48,15 +50,18 @@ const Topbar = () => {
                 <Link>
                   <SellIcon />
                   Sell on Swoo
-                </Link> <Link>
-                  <SellIcon />
+                </Link>
+                 <Link>
+                  <CartIcon />
                   Order Tracking
-                </Link> <Link>
-                  <SellIcon />
+                </Link>
+                 <Link>
+                  <EyeIcon />
                   Recently Viewed
                 </Link>
               </div>
               <div>
+                <Select options={LanguageOptions} keyName={"title"} placeholder={"select an language"}  defaultValue={LanguageOptions[3]} onSelect={handleSelect} />
                 <Select options={LanguageOptions} keyName={"title"} placeholder={"select an language"}  defaultValue={LanguageOptions[3]} onSelect={handleSelect} />
               </div>
             </Col>

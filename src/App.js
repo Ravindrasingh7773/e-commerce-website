@@ -5,8 +5,7 @@ import Header from './components/header';
 function App() {
   return (
   <Fragment> 
-    <Header/>
-  
+    <Header/>  
   </Fragment>
   );
 }

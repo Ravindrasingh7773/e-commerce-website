@@ -53,3 +53,7 @@ align-items: center;
     color:#362526;
     margin-right:8px;
 }
+.select_grp{
+  display:flex;
+  align-items: center;
+}
