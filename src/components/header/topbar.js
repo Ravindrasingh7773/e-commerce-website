@@ -5,36 +5,69 @@ import { Link } from "react-router-dom";
 import SellIcon from "../../icons/sellIcon";
 import styles from "./style.module.css"
 import Select from "../select";
-import CartIcon from "../../icons/cartIcon";
+import OrderIcon from "../../icons/orderIcon";
 import EyeIcon from "../../icons/eyeIcon";
+import DollarIcon from "../../icons/dollarIcon";
+import English from "../../assets/images/english.jpg";
+import French from "../../assets/images/frenchis.jpg";
+import Deustch from "../../assets/images/deutsch.jpg";
+import Itali from "../../assets/images/italino.jpg";
+import Polski from "../../assets/images/polski.jpg";
+import NederLand from "../../assets/images/nederland.jpg";
+import Pycc from "../../assets/images/pyccpk.jpg";
+import Portug from "../../assets/images/portrq.jpg";
+import mulla from "../../assets/images/mulla.jpg";
 
  const LanguageOptions = [{
     id: 1,
     name: "english",
     title: "English",
-    code: "en"
+    image: English , 
  },{
     id: 2,
-    name: "hindi",
-    title: "Hindi",
-    code: "hi"
+    name: "français",
+    title: "Français", 
+    image: French , 
  },{
     id: 3,
-    name: "italian",
-    title: "Italian",
-    code: "it"
+    name: "deutsch",
+    title: "Deutsch", 
+    image: Deustch , 
  },{
     id: 4,
-    name: "spanish",
-    title: "Spanish",
-    code: "en"
+    name: "italiano",
+    title: "Italiano", 
+    image: Itali , 
  },{
     id: 5,
-    name: "german",
-    title: "German",
-    code: "ge"
- },
+    name: "polski",
+    title: "Polski", 
+    image: Polski , 
+ },{
+  id: 6,
+  name: "nederlands",
+  title: "Nederlands", 
+  image: NederLand , 
+},{
+  id: 7,
+  name: "pусский",
+  title: "Русский", 
+  image: Pycc , 
+},{
+  id: 8,
+  name: "português PT",
+  title: "Português PT", 
+  image: Portug , 
+}, 
 ]
+
+const CurrencyOptions = [
+  { id: 1, title: "USD", name: "usd" },
+  { id: 2, title: "EUR", name: "eur" },
+  { id: 3, title: "JPY", name: "jpy" },
+  { id: 4, title: "GBP", name: "gbp" },
+  { id: 5, title: "INR", name: "inr" },
+];
 
 const Topbar = () => {
      const handleSelect = (lang) => {
@@ -42,17 +75,18 @@ const Topbar = () => {
      }
   return (
     <Fragment>
-      <Section>
+      <Section customCss={styles.topbar}>
         <Container>
           <Row>
-            <Col lg={12}  className={styles.topbar_wrap}>
-              <div className={styles.topbar_left}>
+            <Col lg={12}>
+            <div  className={styles.topbar_wrap}> 
+            <div className={styles.topbar_left}>
                 <Link>
                   <SellIcon />
                   Sell on Swoo
                 </Link>
                  <Link>
-                  <CartIcon />
+                  <OrderIcon />
                   Order Tracking
                 </Link>
                  <Link>
@@ -60,10 +94,11 @@ const Topbar = () => {
                   Recently Viewed
                 </Link>
               </div>
-              <div>
-                <Select options={LanguageOptions} keyName={"title"} placeholder={"select an language"}  defaultValue={LanguageOptions[3]} onSelect={handleSelect} />
-                <Select options={LanguageOptions} keyName={"title"} placeholder={"select an language"}  defaultValue={LanguageOptions[3]} onSelect={handleSelect} />
+              <div className={styles.select_grp}>
+                <Select options={CurrencyOptions} keyName={"title"} placeholder={"select an currency"}  defaultValue={CurrencyOptions[3]} onSelect={handleSelect} Icon={<DollarIcon/>} />
+                <Select options={LanguageOptions} keyName={"title"} placeholder={"select an language"}  defaultValue={LanguageOptions[2]} onSelect={handleSelect} ImgUrl={"image"}   />
               </div>
+            </div>
             </Col>
           </Row>
         </Container>

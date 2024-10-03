@@ -1,0 +1,221 @@
+.product_item { 
+  padding: 31px 21px; 
+  position: relative;
+  transition: all .3s ease-in-out;
+  width:auto;
+  height:100%;
+  display:flex;
+  flex-direction: column;
+} 
+.wish_icon{
+    position: absolute;
+    top:20px;
+    right:20px;
+    z-index: 3;
+    padding:8px;
+    background: #E2E4EB;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wish_icon svg{
+    color:#999999;
+}
+.discountBadge{
+    position: absolute;
+    top: 12px;
+    left: 0px;
+    width:75px;
+    z-index:2;
+    padding:5px 10px;
+    background: #F6AB4A;
+    border-radius: 10px;
+    color:#fff;
+    font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+text-align: left;
+    text-transform: uppercase;
+}
+.pi_image img {
+  width: 205px;
+  height: 200px;
+  object-fit: contain;
+}
+.pi_rating{
+    display:flex;
+    margin-bottom:10px;
+}
+.pir_stars{
+    display:flex;
+    align-items: center;
+    gap:1px;
+    margin-right:5px;
+} 
+.unfilledStar svg{
+    font-family: Font Awesome 5 Pro;
+font-size: 12px;
+font-weight: 900;
+line-height: 12px;
+text-align: left;
+    color:#999999;
+} 
+.filledStar svg{
+    font-family: Font Awesome 5 Pro;
+font-size: 12px;
+font-weight: 900;
+line-height: 12px;
+text-align: left;
+    color:#FFA500;
+} 
+.pir_count{
+    font-family: Inter;
+font-size: 11px;
+font-weight: 400;
+line-height: 16.5px;
+text-align: left;
+color:#666666;
+display: flex;
+align-items: end;
+}
+.title a {
+    display:block;
+color: #362526;
+text-decoration:none;
+margin-bottom:16px;
+}
+.title a h2{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-align: left; 
+}
+.price{ 
+margin-bottom:20px;
+display:flex;
+align-items: center;
+flex:1;
+
+}
+.pi_cnt{
+    display:flex;
+    flex-direction: column;
+}
+.pi_cnt .price h3{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.6px;
+text-align: left;
+color:#362526;
+margin-right: 5px;
+}
+.pi_cnt .price del{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.8px;
+text-align: left;
+
+color:#666666;
+}
+.shippings{
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+.shipping{
+    border: 1px solid #DEE2E6;
+    font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 15px;
+text-align: left;
+color:#999999;
+padding:4px 11px;
+border-radius: 8px;
+}
+.free_shipping{
+    border: 1px solid #DEE2E6;
+    font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 15px;
+text-align: left;
+color:#1ABA1A;
+padding:4px 11px;
+border-radius: 8px;
+} 
+.gift{
+    border: 1px solid #DEE2E6;
+    font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 15px;  
+text-align: left;
+color:#F1352B;
+padding:4px 11px;
+border-radius: 8px;
+}
+.stock span{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 20.4px;
+text-align: left;
+    color:#362526;
+    margin-left:4px;
+}
+.wishlist_wrap{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wish_icon2{  
+    padding:8px;
+    background: #E2E4EB;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wish_icon2 svg{
+    color:#999999;
+}
+ 
+.title2{
+    display:block;
+color: #362526;
+text-decoration:none;
+margin-bottom:16px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-align: center; 
+}
+.pic_cnt{
+    flex:1;
+}
+.badge{
+    position: absolute;
+    top:23px;
+    left:50%;
+    transform: translateX(-50%);
+    padding:2px 10px;
+    background: #000000;
+border-radius: 5px;
+font-family: Inter;
+font-size: 11px;
+font-weight: 400;
+line-height: 16.5px;
+text-align: center;
+color:#FFFFFF;
+}
+.pi_cnt2{
+    flex:1;
+}

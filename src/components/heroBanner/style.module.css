@@ -1,0 +1,20 @@
+.hero_banner{
+    padding:50px; 
+    border-radius:10px;
+}
+.hsb_cnt h2{font-family: Inter;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color:#fff;
+    margin-bottom:40px;
+
+    }
+    .hsb_cnt h2 span{
+        color:#F6AB4A;
+    }
+    .hsb_img{
+       display:flex;
+       justify-content: end;
+    }

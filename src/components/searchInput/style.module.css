@@ -1,0 +1,24 @@
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 380px;
+  border-radius: 36px;
+}
+.search input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  padding: 13px 0 13px 12px;
+  border-radius: 36px;
+}
+.si_icon{
+  background-color:#362526;
+  border-radius: 50%;
+  padding:13px;
+  color:#F6AB4A;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}

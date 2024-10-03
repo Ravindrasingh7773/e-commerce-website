@@ -1,0 +1,50 @@
+.delivery {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    position: relative;
+    padding-left:10px;
+    width:100%;
+    max-width:190px;
+}
+
+.d_address {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.2px;
+    letter-spacing: -0.32px;
+    text-align: left;
+    color: #030712;
+}
+
+.d_address span {
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.6px;
+    letter-spacing: -0.32px;
+    text-align: left;
+    color: #030712;
+}
+
+.location_dropdown {
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 10px;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    z-index:999;
+}
+.location_dropdown .ld_input { 
+    background-color: #fff; 
+    z-index: 1000;
+
+}
+.location_list{
+    padding-bottom: 20px; 
+    height:450px;
+    overflow-y: auto;
+}

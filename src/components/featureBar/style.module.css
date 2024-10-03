@@ -1,0 +1,37 @@
+/* FeatureBar.module.css */
+.featureBar {
+    background-color: #F6AB4A; /* Light orange background */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 23px 48px;
+    border-radius: 8px;
+  }
+  
+  .featureItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .icon {
+    font-family: Font Awesome 5 Pro;
+font-size: 13px;
+font-weight: 900;
+line-height: 13px;
+text-align: left;
+
+  }
+  
+  .text {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 32.5px;
+    text-align: left;
+color:#FFFFFF;
+text-transform:uppercase    
+  }
+  

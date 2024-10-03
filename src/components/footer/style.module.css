@@ -1,0 +1,156 @@
+.footer {
+  background-color: #e9e7e8;
+}
+.footer_top {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer_top_left h4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #362526;
+  margin-bottom: 40px;
+}
+.footer_form {
+  padding-left: 20px;
+  background: #ffffff;
+  margin-bottom: 23px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.footer_form > svg {
+  font-family: Font Awesome 5 Pro;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 13px;
+  text-align: left;
+  color: #362526;
+}
+.footer_form > input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  flex: 1;
+}
+.footer_form input::placeholder {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.73px;
+  text-align: left;
+  color: #757575;
+}
+.footer_form button {
+  padding: 19px 20px 19px 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #362526;
+  font-family: Font Awesome 5 Pro;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 18px;
+  text-align: left;
+}
+.footer_privacy {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  color: #666666;
+  margin-bottom: 54px;
+}
+.footer_privacy a {
+  color: #000;
+}
+.social_icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.social_icons {
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+.footer_links a {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  color: #362526;
+  text-decoration:none;
+}
+.footer_address h3{
+  font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.2px;
+text-align: left;
+color: #362526;
+margin-bottom:30px;
+}
+
+.footer_address address{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+color: #362526;
+margin-bottom: 5px;
+}
+.footer_address a{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 35px;
+text-align: left;
+color: #362526;
+text-decoration:none;
+}
+.payment_methods{
+  display:flex;
+  align-items:center;
+  gap: 5px;
+} 
+.f_language{
+  display:flex;
+  align-items:center;
+  justify-content: end;
+}
+.footer_payment{
+  display:flex;
+  align-items: center;
+  gap:10px;
+}
+.footer_bottom{
+  padding:30px 0;
+  border-top: 1px solid #99999933; 
+}
+  .footer_second p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 23.8px;
+text-align: center;
+color: #666666;
+
+  }
+  .footer_second a{font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23.8px;
+    text-align: center;
+    color: #000;
+    text-decoration:none;
+}

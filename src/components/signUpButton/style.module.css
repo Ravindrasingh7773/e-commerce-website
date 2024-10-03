@@ -1,0 +1,12 @@
+.round_button{
+    font-family: Font Awesome 5 Pro;
+font-size: 18px;
+font-weight: 900;
+line-height: 18px;
+text-align: left; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#362526;
+    cursor: pointer;
+}

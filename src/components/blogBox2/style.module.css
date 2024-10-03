@@ -1,0 +1,36 @@
+.blog_box {
+  display: flex;
+  padding: 16px 0 0 15px;
+}
+.bb_img {
+  border-radius: 10px;
+  margin-right: 24px;
+}
+
+.bb_img img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+.bb_cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bb_cnt h4 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+  color: #362526;
+}
+.bb_cnt p {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #362526;
+}

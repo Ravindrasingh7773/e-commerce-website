@@ -1,0 +1,96 @@
+.login_page {
+    background-color: #F8F8F8;
+    padding:30px 0;
+  }
+  .login_row{
+    background-color: #fff;
+    padding: 45px 0; 
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .l_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .l_image {
+    object-fit: contain;
+  }
+  .l_form {
+    padding: 30px 100px 30px 20px;
+  }
+  .lf_heading {
+    margin-bottom: 16px;
+  }
+  .lf_heading h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    color: #362526;
+    margin-bottom: 6px;;
+  }
+  .lf_heading p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #666666;
+  }
+  .l_form form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 11px;
+  }
+  .l_form form input {
+    width: 100%;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    padding: 10px 0 10px 10px;
+    border-radius: 6px;
+  }
+  .lf_forgetPassword {
+    margin-top: 10px;
+    color: #999999;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    border-bottom: 1px solid #999999;
+    width: fit-content;
+    margin-bottom: 40px;
+  }
+  .l_form form button {
+    border: none;
+    background-color: #362526;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+  }
+  .l_newuser{
+    margin-top: 10px;
+  }
+  .l_newuser span:first-child {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #666666;
+  }
+  .l_newuser span a:last-child {
+    color: #362526;
+    font-weight: 600;
+    padding-left: 10px;
+  }
+  .password {
+    position: relative;
+  }
+  .lf_eye {
+    position: absolute;
+  
+    right: 15px;
+    top: 10px;
+  }
+  

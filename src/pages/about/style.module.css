@@ -1,0 +1,202 @@
+.about_page{ 
+  background-color: #F8F8F8;
+  padding-top:16px;
+ }
+.hero_main {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+.heroSection {
+  position: relative;
+}
+.hero_img img {
+  height: 325px;
+  background-size: cover;
+  border-radius: 10px;
+}
+.hero_content {
+  max-width: 356px;
+  position: absolute;
+  top: 70px;
+  left: 90px;
+}
+.hc_title {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 54px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.hc_title span {
+  font-weight: 700;
+}
+.hc_description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  color: #666666;
+}
+.counter_box {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+.counter_title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32.4px;
+  color: #000000;
+  max-width: 284px;
+  text-transform: uppercase;
+}
+.counter_title span {
+  color: #1aba1a;
+}
+.cb_right {
+  display: flex;
+  gap: 80px;
+}
+.cbr_box {
+  max-width: 166px;
+}
+.cbr_title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #000000;
+}
+.cbr_description {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.4px;
+  color: #666666;
+  text-transform: uppercase;
+}
+.seller_boy_img {
+  border-radius: 10px;
+}
+.seller_content {
+  padding: 70px 96px;
+}
+.seller_title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.seller_description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  color: #666666;
+  padding-bottom: 40px;
+}
+.feature_box {
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 230px;
+  border: 1px solid #dee2e6;
+}
+.feature_title {
+  max-width: 160px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #000000;
+  padding-bottom: 52px;
+  text-transform: uppercase;
+}
+.feature_description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.2px;
+  color: #666666;
+}
+
+.ab_top {
+  padding-bottom: 31px;
+  border-bottom: 1px solid #dee2e6;
+}
+.ab_title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.abt_description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.2px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.ab_tower_img img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.ab_middle {
+  padding: 30px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+.ab_year_wrapper {
+  display: flex;
+  gap: 7px;
+}
+.am_year {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25.2px;
+  color: #000000;
+}
+.am_description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25.2px;
+  color: #666666;
+}
+
+.leaderships_section {
+  padding-top: 29px;
+  padding-bottom: 42px;
+}
+.leaderships_title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #000000;
+  padding-bottom: 42px;
+}
+.ls_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.employe_img {
+  padding-bottom: 14px;
+}
+.employe_img img {
+  border-radius: 10px;
+  width:248px;
+  height:320px;
+  object-fit: fill;
+}
+.employe_name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  color: #000000;
+  padding-bottom: 4px;
+}
+.employe_post {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #666666;
+  text-transform: uppercase;
+}

@@ -1,0 +1,33 @@
+.round_button{
+    font-family: Font Awesome 5 Pro;
+font-size: 18px;
+font-weight: 900;
+line-height: 18px;
+text-align: left; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    color:#362526;
+    cursor: pointer;
+}
+.cart_count{
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    background-color: #F6AB4A;
+    width:18px;
+    height:18px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #fff; 
+    border-radius: 50%;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    
+    pointer-events: none;
+}

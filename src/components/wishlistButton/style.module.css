@@ -1,0 +1,38 @@
+.round_button{
+    font-family: Font Awesome 5 Pro;
+font-size: 18px;
+font-weight: 900;
+line-height: 18px;
+text-align: left; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#362526;
+    position: relative;
+    cursor: pointer;
+}
+.sidespan{ 
+        position: absolute;
+        top: -6px;
+        right: -20px;
+        background-color: #FFEBD0;
+        width:18px;
+        height:18px;
+        display: flex;
+        justify-content: center;
+        align-items:center; 
+        border-radius: 50%;  
+        pointer-events: none;
+        padding:5px;
+
+    } 
+    
+.sidespan span{ 
+    width:5px;
+    height:5px;
+    padding:2px;
+    border-radius: 50px;
+    background-color:#F6AB4A ;
+}
+
+

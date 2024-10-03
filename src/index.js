@@ -5,11 +5,14 @@ import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
+import { CartProvider } from './context/cartProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+  <CartProvider>
     <App />
+  </CartProvider>
   </BrowserRouter>
 );
 

@@ -1,0 +1,48 @@
+.ct_section{
+    border: 1px solid #DEE2E6;
+    border-radius: 10px;
+}
+.cs_box{
+    padding:31px ;
+}
+.cs_categories{
+    display:flex; 
+    margin-top:30px;
+    gap:51.4px;
+}
+.csc_image{
+    padding:28px 33px;
+    border: 1px solid #99999922;
+    border-radius: 50px;
+    margin-bottom:20px;
+    
+}
+.cs_category h3{
+    font-family: Inter;
+font-size: 13px;
+font-weight: 700;
+line-height: 19.5px;
+text-align: center;
+color:#362526;
+}
+.cs_img{
+    width:43px;
+    
+}
+.active_users{
+    padding:30px;
+    background-color: #F2F3F5;
+    background-image: url("../../assets/images/activeUsersBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.active_users h4{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 300;
+line-height: 28.8px;
+text-align: center;
+color:#362526;
+
+}

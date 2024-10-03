@@ -18,13 +18,22 @@ const OfferCount = ({ endTime }) => {
     return time;
   }
 
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setTimeLeft(getTimeLeft());
+  //   }, 1000);
+
+  //   return () => clearInterval(timer); // Clean up the interval on component unmount
+  // }, [endTime]);
   useEffect(() => {
     const timer = setInterval(() => {
       setTimeLeft(getTimeLeft());
     }, 1000);
-
+  
     return () => clearInterval(timer); // Clean up the interval on component unmount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [endTime]);
+  
 
   return (
     <div className={styles.offer_count}>

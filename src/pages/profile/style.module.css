@@ -1,0 +1,158 @@
+.profile_page{ 
+  background-color: #F8F8F8;
+  padding-top:16px;
+}
+.wrap_div{
+  background-color: #fff;
+  border-radius: 10px;;
+  padding:30px;
+}
+.profile_information {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+.profile_photo {
+  padding-bottom: 25px;
+}
+.profile_photo img {
+  border-radius: 10px;
+}
+.user_name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  padding-bottom: 25px;
+}
+.user_email {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #666666;
+  padding-bottom: 25px;
+}
+.user_btn {
+  padding: 15px;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.login_box {
+  padding-left: 40px;
+}
+.login_box .title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  color: #362526;
+  padding-bottom: 5px;
+}
+.name_input {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.form .form_input {
+  padding-top: 25px;
+  color: #000000;
+  width: 100%;
+}
+.form .form_input label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+  padding-bottom: 11px;
+}
+.form .form_input input {
+  width: 100%;
+  padding: 13px 12px;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+}
+.form .form_input input:focus {
+  outline: 1px solid #c0b5b5;
+}
+
+.login_box .submit_btn {
+  padding-top: 40px;
+}
+.login_box .submit_btn input {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  background-color: #362526;
+  padding: 15px 48px;
+  text-transform: uppercase;
+}
+
+
+/* Responsive for Tablets */
+@media (max-width: 768px) {
+  .p_bgColor {
+    padding: 20px;
+  }
+
+  .p_user h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .pu_acountInfo button {
+    padding: 15px;
+  }
+
+  .p_acountInfo h4 {
+    font-size: 22px;
+  }
+
+  .p_acountInfo > form > button {
+    margin-top: 35px;
+    padding: 12px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .p_bgColor {
+    padding: 15px;
+  }
+
+  .p_user h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .pu_email a {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .pu_acountInfo button {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .pa_name_last {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .p_acountInfo h4 {
+    font-size: 20px;
+  }
+
+  .p_acountInfo > form > input {
+    padding: 12px 8px;
+  }
+
+  .p_acountInfo > form > button {
+    margin-top: 30px;
+    padding: 10px 30px;
+  }
+}

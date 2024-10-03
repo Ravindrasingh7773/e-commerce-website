@@ -1,8 +1,4 @@
-/*
-
- Offer Bar CSS
-
-  */
+ 
 .offerbar_wrap {
   display: flex;
   justify-content: space-around;
@@ -13,13 +9,10 @@
   align-items: center;
   gap: 13px;
 }
-
-/*
-
- Top Bar CSS
-
-  */
-
+ 
+.topbar{
+  background: #F8F8F8;  
+}
 .topbar_wrap {
     border-width: 0px, 1px, 1px, 1px; 
 border-style: solid; 
@@ -57,3 +50,110 @@ align-items: center;
   display:flex;
   align-items: center;
 }
+ 
+ .searchBar_main{
+  background: #F8F8F8;
+
+ }
+ .search_bar{
+  border-left: 1px solid #99999933;
+  border-right:1px solid  #99999933;  
+display:flex;
+align-items:center;
+padding-right:30px;
+ }
+ .sb_logo{
+  padding:20px 40px;
+  background-color:#fff;
+  border-right: 1px solid #99999933; 
+ }
+ .searchbar_input{
+  margin-left:30px;
+  flex:1
+
+ }
+ .hotline{
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+ }
+.hotline a {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left; 
+  color: #362526;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 205px; 
+  text-decoration: none;
+  padding: 12px 17px 10px 17px; 
+}
+.hotline_icon{
+  font-family: Font Awesome 5 Pro;
+font-size: 17.72px;
+font-weight: 900;
+line-height: 18px;
+text-align: center;
+padding:13px 14px;
+color:#362526;
+background: #EBEEF6;
+border-radius: 22.5px;
+} 
+.hotline a h5 {
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left; 
+color: #362526;
+}
+
+.sb_end_buttons{
+  display:flex;
+  gap:28px;
+  align-items: center;
+  justify-content: end;
+  margin-left: auto;
+}
+ 
+
+.navbar {
+  background: #E9E7E8; 
+  padding: 0 20px;
+}
+
+.navbar_wrap {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.nav_select{
+  background-color: #fff;
+  
+}
+.navbar_left{
+  display:flex;
+}
+.nav_menu{
+  margin-left:30px;
+  display:flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger_icon{
+  padding:12px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Font Awesome 5 Pro;
+font-size: 17.5px;
+font-weight: 900;
+line-height: 20px; 
+background-color: #362526;
+color:#fff;
+} 
+  

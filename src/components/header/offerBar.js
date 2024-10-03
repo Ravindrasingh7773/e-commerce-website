@@ -14,7 +14,7 @@ const OfferBar = () => {
                     <p>FREE delivery & 40% Discount for next 3 orders! Place your 1st order in.</p>
                     </div>
                     <div className={styles.offer_count_wrap}>
-                        <OfferCount  endTime="2024-10-1"  />
+                        <OfferCount  endTime="2024-10-02"  />
                     </div>
                 </div>
             </Row>

@@ -1,0 +1,108 @@
+.button { 
+  color: #fff; 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; 
+  text-decoration: none; 
+  gap: 8px;
+  border-radius: 8px  ;  
+  font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px; 
+
+}
+/* Variants */ 
+ 
+.icon {
+  margin-right: 10px;
+  font-size:20px;
+}
+ .text{
+  color:#362526;  
+  background-color: transparent;
+  padding:0;font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: right;
+  
+ } 
+.fill{ 
+  color:#fff;
+}
+.outline{
+  background: transparent; 
+  border:1px solid #999999;
+  color:#362526;
+  transition: all .3s ease-in-out;
+} 
+
+.outline:hover{
+  background-color: #362526;
+  border-color: #362526;
+  color:#fff;
+}
+ 
+
+ /* backgrounds */
+
+ .brown{
+  background: #362526;  
+  border-color: #362526;
+ }
+ .white{
+  background-color: #fff;
+  border-color: #fff;
+  color:#362526;
+ }
+ .yellow{
+  background: #F6AB4A;  
+  border-color: #F6AB4A;
+ } 
+ /* size */
+.small {
+  padding: 9px 17px 10px;
+  font-size: 14px;
+}  
+.medium {
+  font-size: 12px;
+  padding: 10px 20px;
+}
+.large {
+  padding:14px 30px 16px;
+  font-size: 14px;
+}   
+ 
+/* Display modifiers */
+.block {
+  display: block;
+  width: 100%;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+/* Alignment modifiers */
+.alignleft {
+  text-align: left;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.alignright {
+  text-align: end;
+}
+
+/* Custom styles for the arrow icon */
+.icon {
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.button:hover .icon {
+  transform: translateX(4px);
+}

@@ -1,0 +1,236 @@
+.cart_item{
+    display:flex;
+background: #ebebeb;
+padding:10px 20px;
+margin:10px 0;
+}
+.cart_item_image {
+    background-color: #fff;
+    margin-right:8px;
+}
+.cart_item_image img{
+     width:80px;
+     height:100px;
+     object-fit: contain;
+     mix-blend-mode: multiply;
+}
+.cart_item_details{
+    flex:1;
+}
+.cd_first{
+    display:flex;
+    justify-content: space-between;
+}
+.cd_second{
+    margin:10px 0 ;
+}
+.cd_quanity{
+    display:flex;
+    align-items: center;
+    padding:5px 10px;
+    background-color: #fff;
+    border-radius: 50px;
+    width:110px;
+
+}
+.cd_quanity button{
+    background-color: transparent;
+    border: none;
+    outline:none;
+    padding:5px; 
+}
+
+.cd_quanity input{
+    width:40px;
+    margin: 0 auto;;
+    outline: none;
+    border: none;
+    text-align:center;
+}
+
+.cd_quanity input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+.sb_total{
+    padding:10px 24px; 
+}
+
+.cart_item {
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    background-color: #fafafa;
+    margin-bottom: 16px;
+  }
+  .ci_left {
+    position: relative;
+  }
+  .product_img img {
+    width: 220px;
+  }
+  .save_price {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    width: 73px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1aba1a;
+  }
+  .save_price span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+  }
+  .product_count {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #666666;
+    padding: 0px 0px 8px 70px;
+  }
+  .product_name {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #000000;
+    padding-bottom: 15px;
+  }
+  .product_price {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    color: #f1352b;
+    padding-bottom: 16px;
+  }
+  .count {
+    display: flex;
+    align-items: center;
+    border: 1px solid #99999933;
+    border-radius: 10px;
+    width: 130px;
+    justify-content: center;
+  }
+  .count button {
+    border: none;
+    background-color: transparent;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .count input {
+    border: none;
+    outline: none;
+    width: 50px;
+    text-align: center;
+    font-weight: 500;
+  }
+  .count input:focus {
+    border: none;
+    outline: none;
+  }
+  .count input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .shipping_btn {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 8px;
+  }
+  .stock {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.4px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding-bottom: 11px;
+  }
+  .stock span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #1aba1a;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  }
+  .stock span::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 9px;
+    border-right: 2.5px solid;
+    border-bottom: 2.5px solid;
+    transform: rotate(37deg);
+    border-color: #ffffff;
+  }
+  .shipping_btn .button {
+    padding: 4px 10px;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+  
+
+
+  .pi_rating{
+    display:flex;
+    margin-bottom:10px;
+}
+.pir_stars{
+    display:flex;
+    align-items: center;
+    gap:1px;
+    margin-right:5px;
+} 
+.unfilledStar svg{
+    font-family: Font Awesome 5 Pro;
+font-size: 12px;
+font-weight: 900;
+line-height: 12px;
+text-align: left;
+    color:#999999;
+} 
+.filledStar svg{
+    font-family: Font Awesome 5 Pro;
+font-size: 12px;
+font-weight: 900;
+line-height: 12px;
+text-align: left;
+    color:#FFA500;
+} 
+.pir_count{
+    font-family: Inter;
+font-size: 11px;
+font-weight: 400;
+line-height: 16.5px;
+text-align: left;
+color:#666666;
+display: flex;
+align-items: end;
+}
+
+.stock span{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 20.4px;
+text-align: left;
+    color:#362526;
+    margin-left:4px;
+}

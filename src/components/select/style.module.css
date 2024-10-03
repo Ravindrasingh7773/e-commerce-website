@@ -1,6 +1,14 @@
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: hsla(0, 0%, 0%, 0.188); 
+}
 .custom_select{
     position: relative;
-
+    display:inline-block;
+    cursor:pointer;
 }
 .cs_options{
     position:absolute;
@@ -8,3 +16,40 @@
     left:0;
     z-index:2;
 }
+.cs_label{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    border-left: 1px solid #99999933
+}
+.cs_label img{
+    width:30px;
+}
+.cs_options{ 
+       position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: 2;
+    background-color: #fff; 
+    border: 1px solid #99999933;
+    border-radius: 5px;  
+    display:block;
+}
+
+    .cs_option{
+        padding: 10px;
+        display:block;
+        border-bottom: 1px solid #99999933;
+        white-space:nowrap;
+    }
+    .cs_option img{
+        display:inline-block;
+        margin-right:5px;
+        width:30px;
+    }
+    
+    .cs_option:hover{
+        background-color: #f2f2f2;
+        cursor:pointer;
+    }

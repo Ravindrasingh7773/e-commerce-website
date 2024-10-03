@@ -1,0 +1,14 @@
+ .card_page{ 
+  background-color: #F8F8F8;
+  padding-top:16px;
+ }
+ .orderSummary{
+    height: 100%;
+    display:flex;
+    align-items: end;
+ }
+ .wrap_div{
+   background-color: #fff;
+   border-radius: 10px;;
+   padding:30px;
+ }

@@ -1,0 +1,88 @@
+.header_navbar {
+  padding: 24px 0;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.menubar {
+  display: flex;
+  align-items: center;
+}
+
+.menuItem {
+  position: relative;
+}
+.menuItem a {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left; 
+  transition: ease-in-out 0.3s;
+  color: #362526;
+  text-decoration: none;
+}
+
+.menuItem a:hover {
+  color: #7b7979;
+}
+/* 
+.menuItem a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  top: 35px;
+  left: 0;
+  transition: 0.5s;
+  color: #fff;
+  border-bottom: 3px solid #362526;
+} 
+ 
+
+.menuItem a:hover::after {
+  width: 100%;
+} */
+.menuItemWithChildren {
+  position: relative;
+}
+
+.menuItemWithChildren:hover .menuItem_children {
+  visibility: visible;
+  max-height: 500px;
+  top: 100%;
+}
+
+.menuItem_children {
+  visibility: hidden;
+  height: auto;
+  max-height: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+.mic_item {
+  padding: 10px;
+}
+
+.mic_item a {
+  color: #362526;
+  width: 100%;
+  text-decoration: none;
+  display: block;
+}
+
+.mic_item a:hover {
+  color: #000;
+}
+
+.menuItemWithChildren:hover {
+  color: #000;
+}

@@ -1,0 +1,11 @@
+ .logo{
+    display:flex;
+ }
+ .logo a{
+    display:flex;
+ } 
+ .logo a img{
+   width:110px;
+   height:36px;
+
+ }

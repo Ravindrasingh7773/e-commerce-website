@@ -1,0 +1,237 @@
+.checkout_page{
+  
+  background-color: #F8F8F8;
+  padding-top:16px;
+}
+.wrap_div{
+  background-color: #fff;
+  border-radius: 10px;;
+  padding:30px;
+}
+.checkout_right{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100%;
+}
+.Checkout_title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.Checkout_login {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+  color: #000000;
+  padding: 20px 49px 18px 49px;
+  border: 1px solid #e9e7e8;
+  background-color: #e9e7e8;
+  border-radius: 10px;
+  margin-bottom: 45px;
+}
+.Checkout_login a {
+  color: #f1352b;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.contact_box .title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  color: #000000;
+  padding-bottom: 5px;
+}
+.name_input {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.form .form_input {
+  padding-top: 25px;
+  color: #000000;
+  width: 100%;
+}
+.form .form_input label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+  padding-bottom: 11px;
+}
+.form .form_input input,
+textarea,
+.form_input select {
+  width: 100%;
+  padding: 13px 12px;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+}
+.form .form_input input:focus,
+textarea:focus {
+  outline: 1px solid #c0b5b5;
+}
+.submit_btn {
+  padding-top: 40px;
+  width: 100%;
+}
+.submit_btn input {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  background-color: #1aba1a;
+  padding: 15px 48px;
+  text-transform: uppercase;
+}
+.form_input textarea {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #999999;
+}
+.form_input_checkbox {
+  display: flex;
+  gap: 7px;
+  padding-top: 25px;
+  padding-bottom: 51px;
+}
+.form_input_checkbox label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.code_link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+  color: #000000;
+  padding: 20px 49px 18px 49px;
+  border: 1px solid #e9e7e8;
+  background-color: #e9e7e8;
+  border-radius: 10px;
+  margin-bottom: 45px;
+  margin-top: 51px; 
+}
+.code_link a {
+  color: #f1352b;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.crb_title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  color: #000000;
+  padding-bottom: 30px; 
+}
+.product_details {
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #edeff5;
+  z-index: 2;
+  position: relative;
+}
+.pd_head {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.4px;
+  color: #666666;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+.pd_about {
+  padding-top: 18px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #dee2e6;
+}
+.pd_about_product {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 20px;
+}
+.product_img img {
+  width: 60px;
+}
+.product_name {
+  max-width: 200px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  color: #000000;
+}
+.shipping_box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+}
+.shipping_box span {
+  color: #f1352b;
+}
+.total_price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  padding: 16px 0;
+}
+.total_price span {
+  color: #1aba1a;
+}
+.payment_method {
+  padding: 50px 25px 25px 25px;
+  border-radius: 10px;
+  background-color: #e1e3eb;
+  margin-top: -16px;
+}
+.check_input {
+  display: flex;
+  gap: 11px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  color: #000000;
+  padding-bottom: 10px;
+}
+.pm_description {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22.1px;
+  color: #666666;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+.paypal {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.paypal_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.paypal_logo a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #0d6efd;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

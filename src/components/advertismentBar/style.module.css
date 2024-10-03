@@ -1,0 +1,42 @@
+.advertisment_bar{
+    display:flex;
+    align-items:center; 
+    background: #E9E7E8;
+border-radius: 8px;
+} 
+.ab_left{
+    display:flex;
+    align-items: center;
+    padding: 8px 50px 8px 48px ;
+    flex:1;
+    justify-content: space-between;
+}
+.ab_right{
+    padding: 8px 65px 8px 30px ;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    max-width:50%;
+
+}
+.abr_cnt{
+    flex:1;
+}
+.abr_cnt p{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+color:#666666;    
+}
+
+.abr_cnt h3{font-family: Inter;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: left;
+    
+color:#362526;    
+}
